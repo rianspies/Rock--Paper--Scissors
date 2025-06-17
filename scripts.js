@@ -39,7 +39,7 @@ const play = () =>{
         outcome.innerText = 'Computer wins'
         computerCount++
     } else if ( computer == human){
-        outcome.innerText = 'Its a Tie'
+        outcome.innerText = 'Its a Tie. Go again'
     } else {
         outcome.innerText = 'Human wins'
         humanCount++
