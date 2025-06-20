@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Rock, Paper, Scissors</h1>
-    <img src="Images/icons8-rock-96.png" alt="rock" id="rock" width="48" height="48">
-    <figcaption>Rock</figcaption>
-    <img src="Images/paper.ico" alt="paper" id="paper">
-    <figcaption>Paper</figcaption>
-    <img src="Images/scissors.ico" alt="scissors" id="scissors">
-    <figcaption>Scissors</figcaption>
-    <p id="results"></p>
-    <p id="outcome"></p>
-    <p>Your score:<p id="humanScore"></p></p>
-    <p>Computer score:<p id="computerScore"></p></p>
+    <h1 id="header">Rock Paper Scissors game</h1>
+    <h2>Click on your choice!</h2>
+    <div id="options">
+        <div id="rockDiv">
+            <img src="Images/icons8-rock-96.png" alt="rock" id="rock" width="48" height="48">
+            <figcaption>Rock</figcaption>
+        </div>
+        <div id="paperDiv">
+            <img src="Images/paper.ico" alt="paper" id="paper">
+            <figcaption>Paper</figcaption>
+        </div>
+        <div id="scissorsDiv">
+        <img src="Images/scissors.ico" alt="scissors" id="scissors">
+        <figcaption>Scissors</figcaption>
+        </div>
+    </div>
+    <strong><p id="outcome"></p></strong>
+    <div id="resultsDiv">
+        <p id="humanScore">Your score:</p>
+        <p id="computerScore">Computer score:</p>
+    </div>
 </body>
 </html>

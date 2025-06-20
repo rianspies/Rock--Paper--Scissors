@@ -1,6 +1,6 @@
-const rock = document.getElementById('rock');
-const paper = document.getElementById('paper');
-const scissors = document.getElementById('scissors');
+const rock = document.getElementById('rockDiv');
+const paper = document.getElementById('paperDiv');
+const scissors = document.getElementById('scissorsDiv');
 let humanScore = document.getElementById('humanScore');
 let computerScore = document.getElementById('computerScore');
 const outcome = document.getElementById('outcome');
@@ -44,8 +44,8 @@ const play = () =>{
         outcome.innerText = 'Human wins'
         humanCount++
     }
-    humanScore.innerText = humanCount;
-    computerScore.innerText = computerCount
+    humanScore.innerText = `Your Score: ${humanCount}`;
+    computerScore.innerText = `Computer Score: ${computerCount}`
 };
 
 rock.addEventListener('click', rockClick);
